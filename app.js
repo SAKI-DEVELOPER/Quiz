@@ -165,7 +165,7 @@ function checkAnswer(answer, correct, classAdd) {
                 classAdd.classList.remove("right");
                 process();
             }, 500);
-                let correctSound = new Audio('./sounds/correct.mp3');
+                let correctSound = new Audio('correct.mp3');
                 correctSound.play();
         },10);
         i++;
@@ -179,7 +179,7 @@ function checkAnswer(answer, correct, classAdd) {
                 classAdd.classList.remove("wrong");
                 process();
             }, 500);
-            let wrongSound = new Audio('./sounds/wrong.mp3');
+            let wrongSound = new Audio('wrong.mp3');
                 wrongSound.play();
         },10);
         i++;
