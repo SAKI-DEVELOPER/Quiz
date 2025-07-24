@@ -136,6 +136,7 @@ body {
     padding: 1rem;
     border-radius: 0.5rem;
     border: 2px solid rgba(88, 88, 88, 0.486);
+    cursor: pointer;
 }
 
 #restarter {
@@ -148,6 +149,7 @@ body {
     padding: 1rem;
     border-radius: 0.5rem;
     border: 2px solid rgba(88, 88, 88, 0.486);
+    cursor: pointer;
 }
 
 .resDash {
